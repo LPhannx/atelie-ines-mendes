@@ -1,208 +1,147 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atêlieinêsmendes</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">	
+	<!--padrão de acentuação-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--garante com que o site funcione corretamente nos navegadores-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<!--dimensões do site-->
+
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">	
+	<!--ícone da página web-->
+
+	<link rel="stylesheet" href="style.css">
+	<!--conexão com arquivo CSS-->
+
+	<title>Ateliê Inês Mendes</title>
 </head>
+
 <body>
+    <header>
+            <img class="logo" src="imagens/logo-azul.png" alt="">
+    </header>
+    <!--barra de navegação-->
 
-   
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="imagens/1.png" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
 
-   <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="imagens/favicon.ico" alt="Logo" class="logo">
-    
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="inicio">
-                <a class="nav-link" href="index.html">Início</a>
-            </li>
-        </ul>
-    </div>
-    </nav>
-  
-    <!-- Seção de Cards para adicionar as fotos do site -->
+            <div class="product">
+                <img src="imagens/2.png" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+            
+            <div class="product">
+                <img src="imagens/3.png" alt="Produto 3">
+                <h2>Produto 3</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-4"><!--Para add nova caixa para ter as fotos dentro dela, add a partir desta linha até 3 </div> depois do h5 -->
-                <div class="card">
-                    <img src="Produtos/necesserietimida.jpeg" class="card-img-top" alt="necesserietimida">
-                    <div class="card-body">
-                        <h5 class="card-title">Bolsa 1</h5>
-                    </div>
-                </div>
-            </div> <!--Copie até aqui e dê um ENTER e cole o que foi copiado-->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="card">
-                    <img src="Produtos/necesseriefofa.jpeg" class="card-img-top" alt="necesseriefofa">
-                    <div class="card-body">
-                        <h5 class="card-title">Bolsa 2</h5>
-                    </div>
-                </div>
+            <div class="product">
+                <img src="imagens/4.png" alt="Produto 4">
+                <h2>Produto 4</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="card">
-                    <img src="Produtos/necesserieflorida.jpeg" class="card-img-top" alt="necesserieflorida">
-                    <div class="card-body">
-                        <h5 class="card-title">Bolsa 3</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="card">
-                    <img src="Produtos/necesseriecoruja.jpeg" class="card-img-top" alt="necesseriecoruja">
-                    <div class="card-body">
-                        <h5 class="card-title">Bolsa 4</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/necesseriecontida.jpeg" class="card-img-top" alt="necesseriecontida">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 5</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/necesseriecarnaval.jpeg" class="card-img-top" alt="necesseriecarnaval">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 6</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/necesserieazulrosa.jpeg" class="card-img-top" alt="necesserieazulrosa">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 7</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/bolsatransparenterosa.jpeg" class="card-img-top" alt="bolsatransparenterosa">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 8</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/bolsatransparenteazul.jpeg" class="card-img-top" alt="bolsatransparenteazul">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 9</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/bolsatransparenteamarela.jpeg" class="card-img-top" alt="bolsatransparenteamarela">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 10</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/bolsamenina.jpeg" class="card-img-top" alt="bolsamenina">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 11</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-                <img src="Produtos/bolsamaepreta.jpeg" class="card-img-top" alt="bolsamaepreta">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 12</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-            <img src="Produtos/bolsamaecolorida.jpeg" class="card-img-top" alt="bolsamaecolorida">
-                <div class="card-body">
-                    <h5 class="card-title">Bolsa 12</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-                <div class="card">
-                <img src="Produtos/Bolsamae.jpeg" class="card-img-top" alt="Bolsamae">
-                   <div class="card-body">
-                       <h5 class="card-title">Bolsa 13</h5>
-                   </div>
-               </div>
-           </div>
-           <div class="col-12 col-sm-6 col-md-4">
-                <div class="card">
-                <img src="Produtos/bolsafesta.jpeg" class="card-img-top" alt="bolsafesta">
-                   <div class="card-body">
-                       <h5 class="card-title">Bolsa 14</h5>
-                   </div>
-               </div>
-           </div>
-        <div class="col-12 col-sm-6 col-md-4">
-                <div class="card">
-                <img src="Produtos/Bolsachique.jpeg" class="card-img-top" alt="Bolsachique">
-                   <div class="card-body">
-                       <h5 class="card-title">Bolsa 15</h5>
-                   </div>
-               </div>
-           </div> 
-           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-            <img src="Produtos/Bolsachique.jpeg" class="card-img-top" alt="Bolsachique">
-               <div class="card-body">
-                   <h5 class="card-title">Bolsa 16</h5>
-               </div>
-           </div>
-       </div> 
-       <div class="col-12 col-sm-6 col-md-4">
-        <div class="card">
-        <img src="Produtos/Bolsachique.jpeg" class="card-img-top" alt="Bolsachique">
-           <div class="card-body">
-               <h5 class="card-title">Bolsa 17</h5>
-           </div>
-       </div>
-   </div> 
-   <div class="col-12 col-sm-6 col-md-4">
-    <div class="card">
-    <img src="Produtos/Bolsachique.jpeg" class="card-img-top" alt="Bolsachique">
-       <div class="card-body">
-           <h5 class="card-title">Bolsa 18</h5>
-       </div>
-   </div>
-</div> 
-<div class="col-12 col-sm-6 col-md-4">
-    <div class="card">
-    <img src="Produtos/Bolsachique.jpeg" class="card-img-top" alt="Bolsachique">
-       <div class="card-body">
-           <h5 class="card-title">Bolsa 19</h5>
-       </div>
-   </div>
-</div> 
-    </div>
- </div>
-</div>
 
+            <div class="product">
+                <img src="imagens/5.png" alt="Produto 5">
+                <h2>Produto 5</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
 
-        <!-- Botão WhatsApp flutuante -->
-    <a href="https://wa.me/5517981111270" class="whatsapp-button" target="_blank">
-    <img src="imagens/botãowhatsapp.avif" alt="WhatsApp">
-   Fale comigo
-   </a>
+            <div class="product">
+                <img src="imagens/6.png" alt="Produto 6">
+                <h2>Produto 6</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
 
-        <!-- Rodapé -->
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2024 Atêlie Inês Mendes. Todos os direitos reservados.</p>
+            <div class="product">
+                <img src="imagens/7.png" alt="Produto 7">
+                <h2>Produto 7</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/8.png" alt="Produto 8">
+                <h2>Produto 8</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/9.png" alt="Produto 9">
+                <h2>Produto 9</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/10.png" alt="Produto 10">
+                <h2>Produto 10</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/11.png" alt="Produto 11">
+                <h2>Produto 11</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/12.png" alt="Produto 12">
+                <h2>Produto 12</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/13.png" alt="Produto 13">
+                <h2>Produto 13</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/14.png" alt="Produto 14">
+                <h2>Produto 14</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+            <div class="product">
+                <img src="imagens/15.png" alt="Produto 15">
+                <h2>Produto 15</h2>
+                <p><strong>Preço a consultar</strong></p>
+                <a href="https://wa.me/5517981111270" class="button" target="_blank">Compre agora</a>
+            </div>
+
+        </section>
+    </main>
+    <!--cards de produtos-->
+
+    <footer>
+        <p>&copy; 2024 Ateliê Inês Mendes. Todos os direitos reservados.</p>
     </footer>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--rodapé-->
+
+</body>
 </html>
