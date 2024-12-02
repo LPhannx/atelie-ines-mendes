@@ -1,7 +1,6 @@
 :root { /*define as variáveis para facilitar a criação de comandos*/
     --lilas: #baa6e9;
     --roxo: #5e43a1;
-    --azul-esc: #0e3a85;
 }
 
 * { /*aplica os comandos em toda a tag HTML*/
